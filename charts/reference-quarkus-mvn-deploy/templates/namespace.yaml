@@ -3,4 +3,6 @@ kind: Namespace
 metadata:
   name: {{ .Release.Namespace }}
   annotations:
-    managed-admin: 'true'
+    managed-admin/subject.name: system:serviceaccounts:openshift-gitops
+    managed-admin/subject.kind: Group
+
