@@ -4,6 +4,7 @@ metadata:
   name: {{ template "application.fullname" . }}
   namespace: {{ .Release.Namespace }}
   labels:
+    app.kubernetes.io/name: {{ template "application.name" . }}
     app: {{ template "application.name" . }}
     chart: {{ template "application.chart" . }}
     release: {{ .Release.Name }}
@@ -18,6 +19,7 @@ spec:
   template:
     metadata:
       labels:
+        app.kubernetes.io/name: {{ template "application.name" . }}
         app: {{ template "application.name" . }}
         release: {{ .Release.Name }}
       annotations:
