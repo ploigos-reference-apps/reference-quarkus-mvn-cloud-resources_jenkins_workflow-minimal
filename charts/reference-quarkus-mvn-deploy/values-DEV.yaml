@@ -1,3 +1,3 @@
 replicaCount: 1
 image:
-  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min/fruit@sha256:54a8d5dd448e44015e51498c1d6cbcad72eb6981b8e4feab8cd996a7e33fce7a # written by ploigos-step-runner
+  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min/fruit@sha256:b5c4c74cd53d6321ff40f28a797c46511e46c515b26625a70f6357f5c2169165 # written by ploigos-step-runner
