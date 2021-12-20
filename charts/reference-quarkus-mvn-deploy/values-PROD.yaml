@@ -1,5 +1,5 @@
 replicaCount: 2
 image:
-  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min/fruit@sha256:5f28303b84ec4d651db2d3a69433cd9fd6b4c56a34d47052e878d9395bd8de59 # written by ploigos-step-runner
+  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min/fruit@sha256:ca5147acfbcec9aff34a452a5780e93a3d941e877bcd2971c31a24a42b39e5ae # written by ploigos-step-runner
 route:
   hostname: fruit-jenkins-min.prod.apps.tssc.rht-set.com
