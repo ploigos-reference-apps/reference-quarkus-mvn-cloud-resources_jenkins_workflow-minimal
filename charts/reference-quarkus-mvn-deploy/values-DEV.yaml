@@ -1,4 +1,4 @@
 environment: DEV
 replicaCount: 1
 image:
-  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min-fruit:1.0.2-main # written by ploigos-step-runner
+  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-jenkins-min/fruit@sha256:c4e5f0bbb59de7c577a217b94898875a16e57a54bc65c1d070772b983e9f609d # written by ploigos-step-runner
